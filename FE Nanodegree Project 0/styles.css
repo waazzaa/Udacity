@@ -1,0 +1,120 @@
+body {
+	font-family: "Lato";
+	margin: 0;
+	font-size: 16px;
+}
+
+.content {
+  	width: 530px;
+  	margin: 0 auto;
+}
+
+/* HEADING */
+
+header {
+  	height: 40px;
+  	width: 100%;
+}
+
+.header-content {
+	height: 100%;
+}
+
+.udacity-logo {
+  	height: 40px;
+  	width: 40px;
+  	float: left;
+}
+
+h1 {
+  	float: left;
+  	padding-top: 10px;
+  	font-size: 16px;
+  	font-weight: normal;
+	color: #666666;
+	-webkit-margin-before: 0;
+  	-webkit-margin-after: 0;
+}
+
+
+/* MAIN SECTIONS */
+
+.hero {
+  max-width: 100%;
+  background-color: #11253d;
+  color: #ffffff;
+}
+
+.name_box {
+	position: absolute;
+	display: inline;
+	margin: 83px 0px 0px 10px;
+	padding: 10px 15px;
+	background: #0c2033;
+	color: #ffffff !important;
+	width: 245px;
+	
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.extra_header {
+	color: #ffffff !important;
+	font-size: 22px !important;
+	font-weight: 700;
+}
+
+.extra_header_sub {
+	color: #ffffff !important;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: 300;
+	border: none !important;
+	padding: 0px !important;
+}
+
+.my-picture {
+	position: relative;
+  	display: inline;
+  	margin: 20px 0px 20px 270px;
+  	max-width: 200px;
+  	border: 2px solid #ffffff;
+  	-webkit-border-radius: 50%;
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+	z-index: 10;
+}
+
+.content .my-info {
+	border-bottom: 1px solid #eeeeee;
+}
+.content .my-info:last-child {
+	border-bottom: none;
+}
+
+.iama {
+  max-width: 100%;
+  color: #969696;
+  letter-spacing: 0.05em;
+	font-size: 13px;
+  margin: 0;
+}
+
+.my-info {
+  max-width: 100%;
+  margin: 0 auto 20px;
+	padding: 0px 0px 20px;
+	color: #515151;
+}
+
+.my-info:last-of-type {
+  margin: 0;
+}
+
+.about-me {
+  padding: 1em;
+}
